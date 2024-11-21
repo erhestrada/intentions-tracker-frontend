@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Intentions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Express Intentions</a></li>
+            <li><a href="manageIntentions.html">Manage Intentions</a></li>
+            <li><a href="progress.html">View Progress</a></li>
+        </ul>
+    </nav>
+    <div id="manage-intentions-container">
+        <form id="myForm">
+            <label for="add-intention-input">intention</label>
+            <input id="add-intention-input" type="text" />
+            <label for="required-repetitions-input">repetitions per day</label>
+            <input id="required-repetitions-input" type="text">
+            <button id="add-intention-button">add intention</button>
+        </form>
+        <button id="delete-intentions-button">Delete Intention</button>
+    </div>
+
+    <div class="container">
+    </div>
+    <script type="module" src="manageIntentions.js"></script>
+</body>
+</html>
