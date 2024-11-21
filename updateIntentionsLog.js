@@ -1,4 +1,4 @@
-import { saveDataToLocalStorage } from "./addIntention";
+import { saveDataToLocalStorage } from "./addIntention.js";
 
 export function updateIntentionsLog(intention, dateTime) {
     let intentionsLog = loadArrayFromLocalStorage('intentionsLog');

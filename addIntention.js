@@ -1,5 +1,5 @@
-import { displaySquares } from "./displaySquares";
-import { storeRequiredRepetitionsForIntention } from "./storeAndRetrieveData";
+import { displaySquares } from "./displaySquares.js";
+import { storeRequiredRepetitionsForIntention } from "./storeAndRetrieveData.js";
 
 export function addIntention() {
   let requiredRepetitionsPerIntention = JSON.parse(localStorage.getItem('requiredRepetitionsPerIntention')) || {};
