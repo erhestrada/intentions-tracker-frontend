@@ -1,5 +1,5 @@
-import { addIntention } from "./addIntention";
-import { displaySquares } from "./displaySquares";
+import { addIntention } from "./addIntention.js";
+import { displaySquares } from "./displaySquares.js";
 
 const form = document.getElementById('myForm');
 form.addEventListener('submit', (e) => {
